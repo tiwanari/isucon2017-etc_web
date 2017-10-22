@@ -2,7 +2,7 @@ root:x:0:
 daemon:x:1:
 bin:x:2:
 sys:x:3:
-adm:x:4:syslog,ubuntu
+adm:x:4:syslog,ubuntu,netdata
 tty:x:5:
 disk:x:6:
 lp:x:7:
@@ -10,7 +10,7 @@ mail:x:8:
 news:x:9:
 uucp:x:10:
 man:x:12:
-proxy:x:13:
+proxy:x:13:netdata
 kmem:x:15:
 dialout:x:20:
 fax:x:21:
@@ -56,3 +56,4 @@ lpadmin:x:115:ubuntu
 sambashare:x:116:ubuntu
 isucon:x:1001:
 mysql:x:117:
+netdata:x:999:

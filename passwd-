@@ -28,4 +28,4 @@ ntp:x:108:114::/home/ntp:/bin/false
 sshd:x:109:65534::/var/run/sshd:/usr/sbin/nologin
 ubuntu:x:1000:1000:Ubuntu User,,,:/home/ubuntu:/bin/bash
 isucon:x:1001:1001::/home/isucon:/bin/bash
-mysql:x:110:117::/nonexistent:/bin/false
+mysql:x:110:117:MySQL Server,,,:/nonexistent:/bin/false

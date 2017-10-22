@@ -2,7 +2,7 @@ root:*::
 daemon:*::
 bin:*::
 sys:*::
-adm:*::syslog,ubuntu
+adm:*::syslog,ubuntu,netdata
 tty:*::
 disk:*::
 lp:*::
@@ -55,3 +55,5 @@ ubuntu:!::
 lpadmin:!::ubuntu
 sambashare:!::ubuntu
 isucon:!::
+mysql:!::
+netdata:!::
